@@ -4,12 +4,12 @@ A SQL only analysis of one month of NYC Citi Bike ride data. Framed 20 business 
 
 ## Dataset
 
-- **Source:** [Citi Bike System Data](https://s3.amazonaws.com/tripdata/index.html) — official public dataset, no login required
+- **Source:** [Citi Bike System Data](https://s3.amazonaws.com/tripdata/index.html) (official public dataset)
 - **Period used:** April 2026 (`202604-citibike-tripdata.zip`)
 
 | Table | Rows | Description |
 |---|---|---|
-| `trips` | 3,860,372 | one row per ride — timestamps, start/end staton, bike type, rider type, GPS cordinates |
+| `trips` | 3,860,372 | one row per ride each with timestamps, start/end staton, bike type, rider type, GPS cordinates |
 | `stations` | 2,437 | One row per station, derived from `trips` |
 
 Raw merged CSV: ~753 MB (~165 MB zipped as downloaded).
